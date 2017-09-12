@@ -1,4 +1,4 @@
-docker
+Docker and Composer Role
 ======
 
 This Ansible role enables people to install the latest Docker and Composer on an Ubuntu-like
