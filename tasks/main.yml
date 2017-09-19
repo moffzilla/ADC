@@ -69,10 +69,15 @@
     name: 'virtualenv'
     state: 'present'
 
-#- name: 'Install docker-py'
-#  pip:
-#    name: 'docker-py'
-#    state: 'present'
+- name: 'Install redis python package'
+  pip:
+    name: 'redis'
+    state: 'present'
+
+- name: 'Install ElasticSearch python package'
+  pip:
+    name: 'Elasticsearch'
+    state: 'present'
 
 - name: 'Install docker compose'
   pip:
